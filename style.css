@@ -1,0 +1,141 @@
+body{
+font-family: Arial;
+margin:0;
+background: linear-gradient(to right,#f8f9fa,#e9ecef);
+}
+
+header{
+background:#1e90ff;
+color:white;
+padding:15px;
+display:flex;
+justify-content:space-between;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:80px;
+}
+
+.hero input{
+padding:10px;
+width:250px;
+}
+
+.hero button{
+padding:10px 20px;
+background:#1e90ff;
+color:white;
+border:none;
+}
+
+.features{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:40px;
+}
+
+.feature{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.jobs{
+display:flex;
+gap:20px;
+justify-content:center;
+padding:40px;
+}
+
+.job-card{
+background:white;
+padding:20px;
+width:220px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+button{
+background:#28a745;
+color:white;
+padding:10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:auto;
+gap:10px;
+padding:20px;
+}
+
+input{
+padding:10px;
+}
+.feature{
+animation: fade 1s ease-in;
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
+.feature:hover{
+transform: scale(1.05);
+transition: 0.3s;
+box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+cursor:pointer;
+}
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+font-size:14px;
+}
+.feature h2{
+font-size:40px;
+margin-bottom:10px;
+}
+.feature:hover{
+background:#f0f8ff;
+transform:scale(1.05);
+transition:0.3s;
+}
+button:hover{
+background:#0d6efd;
+}
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark .feature{
+background:#1e1e1e;
+color:white;
+}
+
+.dark header{
+background:#000;
+}
+
+.dark footer{
+background:#000;
+}
